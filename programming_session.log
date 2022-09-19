@@ -4,4 +4,103 @@ Script started on 2022-09-12 08:30:46+09:00 [TERM="xterm-256color" TTY="/dev/pts
 
 Script done on 2022-09-12 08:31:08+09:00 [COMMAND_EXIT_CODE="0"]
 Script started on 2022-09-12 08:36:28+09:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="77" LINES="19"]
-[?2004h]0;nobsun@tpp1g3: ~/Dropbox/Seitoku/2022/A/cs/cs2022[01;32mnobsun@tpp1g3[00m:[01;34m~/Dropbox/Seitoku/2022/A/cs/cs2022[00m$ 
+[?2004h]0;nobsun@tpp1g3: ~/Dropbox/Seitoku/2022/A/cs/cs2022[01;32mnobsun@tpp1g3[00m:[01;34m~/Dropbox/Seitoku/2022/A/cs/cs2022[00m$ Script started on 2022-09-12 11:32:17+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="127" LINES="17"]
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ stack build
+[0mException while reading snapshot from https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml:
+HttpExceptionRequest Request {
+  host                 = "raw.githubusercontent.com"
+  port                 = 443
+  secure               = True
+  requestHeaders       = [("User-Agent","Haskell pantry package")]
+  path                 = "/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml"
+  queryString          = ""
+  method               = "GET"
+  proxy                = Nothing
+  rawBody              = False
+  redirectCount        = 10
+  responseTimeout      = ResponseTimeoutDefault
+  requestVersion       = HTTP/1.1
+}
+ ConnectionTimeout[0m
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ stack build
+[0mException while reading snapshot from https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml:
+HttpExceptionRequest Request {
+  host                 = "raw.githubusercontent.com"
+  port                 = 443
+  secure               = True
+  requestHeaders       = [("User-Agent","Haskell pantry package")]
+  path                 = "/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml"
+  queryString          = ""
+  method               = "GET"
+  proxy                = Nothing
+  rawBody              = False
+  redirectCount        = 10
+  responseTimeout      = ResponseTimeoutDefault
+  requestVersion       = HTTP/1.1
+}
+ ConnectionTimeout[0m
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ stack clean
+[0mException while reading snapshot from https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml:
+HttpExceptionRequest Request {
+  host                 = "raw.githubusercontent.com"
+  port                 = 443
+  secure               = True
+  requestHeaders       = [("User-Agent","Haskell pantry package")]
+  path                 = "/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml"
+  queryString          = ""
+  method               = "GET"
+  proxy                = Nothing
+  rawBody              = False
+  redirectCount        = 10
+  responseTimeout      = ResponseTimeoutDefault
+  requestVersion       = HTTP/1.1
+}
+ ConnectionTimeout[0m
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ stack build
+[0mException while reading snapshot from https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml:
+HttpExceptionRequest Request {
+  host                 = "raw.githubusercontent.com"
+  port                 = 443
+  secure               = True
+  requestHeaders       = [("User-Agent","Haskell pantry package")]
+  path                 = "/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml"
+  queryString          = ""
+  method               = "GET"
+  proxy                = Nothing
+  rawBody              = False
+  redirectCount        = 10
+  responseTimeout      = ResponseTimeoutDefault
+  requestVersion       = HTTP/1.1
+}
+ ConnectionTimeout[0m
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ Script started on 2022-09-19 12:04:19+09:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="132" LINES="17"]
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ stack build
+[0mcs2022-0.1.0.0: unregistering (local file changes: cs2022.cabal src/TemplateAlgo.hs)[0m
+[0mcs2022> configure (lib + exe)[0m
+[0mConfiguring cs2022-0.1.0.0...[0m
+[0mcs2022> build (lib + exe)[0m
+[0mPreprocessing library for cs2022-0.1.0.0..[0m
+[0mBuilding library for cs2022-0.1.0.0..[0m
+[0m[3 of 3] Compiling TemplateAlgo[0m
+[0mPreprocessing executable 'cs2022' for cs2022-0.1.0.0..[0m
+[0mBuilding executable 'cs2022' for cs2022-0.1.0.0..[0m
+[0mLinking .stack-work/dist/x86_64-linux-tinfo6/Cabal-3.2.1.0/build/cs2022/cs2022 ...[0m
+[0mcs2022> copy/register[0m
+[0mInstalling library in /home/miki/cs2022/.stack-work/install/x86_64-linux-tinfo6/f146eb1d0eb839d0f03f6726c89b5aab2c61efa54d3f75a9fe6eb2f04454f4ad/8.10.7/lib/x86_64-linux-ghc-8.10.7/cs2022-0.1.0.0-BUCyn38qLb36zUXpKHew9j[0m
+[0mInstalling executable cs2022 in /home/miki/cs2022/.stack-work/install/x86_64-linux-tinfo6/f146eb1d0eb839d0f03f6726c89b5aab2c61efa54d3f75a9fe6eb2f04454f4ad/8.10.7/bin[0m
+[0mRegistering library for cs2022-0.1.0.0..[0m
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ lghci src?[K/te[K[KTEm[K[KemplateAlgo.hs 
+[?1h=GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/miki/cs2022/.ghci
+2022-09-19 12:11:58.616321686
+>>> :q
+[?1l>Leaving GHCi.
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ stack exec -- src/temp[K[K[K[KTemplateAlgo.hs [1@g[1@h[1@c[1@i[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/miki/cs2022/.ghci
+[1 of 1] Compiling TemplateAlgo     ( src/TemplateAlgo.hs, interpreted )
+Ok, one module loaded.
+2022-09-19 12:14:17.048955477
+[?1h=>>> :q
+[?1l>Leaving GHCi.
+]0;miki@DESKTOP-PTDLRN9: ~/cs2022[01;32mmiki@DESKTOP-PTDLRN9[00m:[01;34m~/cs2022[00m$ git add .
